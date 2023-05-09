@@ -1,5 +1,5 @@
 # Base Image
-From ubuntu
+FROM ubuntu
 
 # Author Name
 MAINTAINER Anas
@@ -12,3 +12,4 @@ CMD ["echo","This is my ubuntu image"]
 
 # ! Terminal Command
 # docker build -t ubuntuimage .
+# docker run --name ubuntucontainer ubuntuimage

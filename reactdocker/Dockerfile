@@ -8,6 +8,6 @@ RUN npm install react-scripts@5.0.1 -g --silent
 COPY . ./
 CMD ["npm", "start"]
 
-# ! Terminal Commands
+# ! Terminal Command
 # docker build -t reactdockerapp:dev .
 # docker run -it -p 3000:3000 reactdockerapp:dev
